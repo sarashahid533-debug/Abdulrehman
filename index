@@ -1,0 +1,48 @@
+<style>
+
+    /* 1. UNIVERSAL SELECTOR */
+    * {
+      font-family: 16px;
+    }
+
+    /* 2. ELEMENT SELECTOR */
+    body {
+      background-color: lightgray;
+    }
+
+    h1 {
+      color: blue;
+    }
+
+    h2 {
+      color: green;
+    }
+
+    p {
+      color: black;
+    }
+    /* 3. CLASS SELECTOR */
+    .my-details {
+      color: purple;
+      font-weight: bold;
+    }
+
+    /* 4. ID SELECTOR */
+    #my-card {
+      background-color: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+</style>
+</head>
+<body>
+
+  <div id="my-card">
+    <h1>AbdulRehman</h1>
+    <h2>Web Developer</h2>
+    <p class="my-details">I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating beautiful and functional websites.</p>
+  </div>
+
